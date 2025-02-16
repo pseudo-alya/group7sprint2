@@ -1,0 +1,52 @@
+.in{
+    font-style: italic;
+}
+
+header{
+    text-align: center;
+}
+
+#my_name{
+    font-size: 50px;
+}
+
+hr{
+    height: 1px;
+    border: 0 none;
+    background-color: black;
+}
+
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+p{
+    font-size: 20px;
+}
+
+li{
+    font-size: 20px;
+}
+
+#resumeBtn {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  #resumeBtn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarges the button */
+  }
+  
+  #resumeBtn:active {
+    background-color: #004085; /* Even darker blue on active click */
+  }
